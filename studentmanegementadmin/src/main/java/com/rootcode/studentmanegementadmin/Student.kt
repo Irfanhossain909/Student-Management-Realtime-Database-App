@@ -2,9 +2,9 @@ package com.rootcode.studentmanegementadmin
 
 data class Student(
 
-    val Batch:String,
-    val Name:String,
-    val Email:String,
-    val Phone:String,
-    val Subject:String,
+    val Batch:String?=null,
+    val Name:String?=null,
+    val Email:String?=null,
+    val Phone:String?=null,
+    val Subject:String?=null
 )
